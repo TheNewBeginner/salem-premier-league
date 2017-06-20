@@ -1,0 +1,30 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: white;
+}
+.banner-player{
+	height: 200px;
+	margin-bottom: 20px;
+	
+}
+a:hover{
+	color: #E90053;
+}
+.table-default{
+	color: #d3d3d3;
+}
+.premier-league{
+	font-size: 30px;
+	color: #000;
+	margin-top: 40px;
+}
+
+.premier-league_season{
+	font-size: 20px;
+	color: #0006;
+}
+
