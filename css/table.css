@@ -12,7 +12,8 @@ body{
 	
 }
 a:hover{
-	color: #E90053;
+	color:#000;
+	text-decoration: none;
 }
 .table-default{
 	color: #d3d3d3;
