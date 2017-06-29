@@ -55,9 +55,6 @@ h3{
   line-height: 60px;
 
 }
-#myCarousel slide .item {
-  height: 300px;
-}
 
 .item img {
     position: absolute;
@@ -173,6 +170,7 @@ h3{
   color: #a4a3a8;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-family: 'Spectral', serif;
 }
 .panel-default>.panel-heading{
   height: 80px !important;
