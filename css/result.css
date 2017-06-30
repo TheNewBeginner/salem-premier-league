@@ -1,0 +1,64 @@
+
+.body{
+	font-family: 'Montserrat', sans-serif;
+}
+.match_banner_title{
+  font-family: 'Spectral', serif;
+  font-size: 36px;
+  color: rgb(209, 10, 17 );
+  font-family: 'Montserrat', sans-serif;
+}
+#fixtures{
+	color: #a4a3a8;
+}
+
+.btn-success{
+	background-color: transparent;
+	color: rgb(209, 10, 17);
+	border: 1px solid #a4a3a8;
+	border-radius: 0;
+	height: 50px;
+}
+.btn-success:hover{
+	color: #fff;
+	background-color:rgb(209, 10, 17);
+
+}
+.match_banner_image{
+	margin-top: 20px;
+	height: 400px;
+	width: 100%;
+	background-image: url('../img/homebanner-1.jpg');
+	background-color: transparent;
+}
+.status_flag{
+	width: auto;
+	height: auto;
+	background-color: #fbc200;
+	color: black;
+	top: 55px;
+	left: 55px;
+	padding: 15px 20px;
+	display: block;
+	position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+	transition: color .3s linear,background-color .3s linear;
+}
+.away_team, .home_team{
+	text-align: center;
+	color: #fff;
+	top: 100px;
+	letter-spacing: 3px;
+	font-size: 30px !important;
+	position: absolute;
+	font-weight: 700px;
+	padding: 10px 15px;	
+    font-family: 'Fjalla One', sans-serif;
+	text-transform: capitalize;
+	transition: color .3s linear,background-color .3s linear;
+}
+.home_team{
+	left: 40%;
+}
