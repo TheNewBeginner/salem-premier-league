@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="css/result.css"> 
-	 <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Montserrat|Roboto|Spectral" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
 </head>
@@ -21,7 +21,7 @@
 		<div class="row">
 			<div class="col-xs-6 col-md-6">
 				<div class="match_banner_title">
-					TEAM 17/18 <span id="fixtures">FIXTURES</span>
+					TEAM 17/18 <span class="fixtures">FIXTURES</span>
 				</div>
 			</div>
 			<div class="col-xs-6 col-md-6">
@@ -31,43 +31,48 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid">
+	<div class="container-fluid match_banner_image">
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
-				<div class="match_banner_image">
+				<div class="">
 					<div class="status_flag">
 						Next Match
 					</div>
 					<div class="row">
 						<div class="col-xs-6 col-md-6">
 							<div class="home_team">
-								ARSENAL
+								<p class="home_team_title"></p>
 								<img src="img/arsenal-copy.gif">
 							</div>
 						</div>
 						<div class="col-xs-6 col-md-6">
 							<div class="away_team">
-								<img src="img/chelsea.png" style="height: 130px; width: 130px;">
-								CHELSEA
+								<img src="img/psg.png" id="chelsea">
+								<p class="away_team_title"></p>
 							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-12">
+							<p class="vs">V</p>
+							<p class="fixture-date">SAT, 27 JULY 2017.</p>
+							<p class="venue">Stadium of Peace</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-6">
+				<div class="match_months">SEPTEMBER &nbsp;<span class="fixtures">2017</span></div>
+			</div>
+			<div class="col-xs-6 col-md-6">
+				<div class="result_page pull-right"><a href="#">See Results</a><i class="fa fa-chevron-circle-right pull-right fa-1x" ></i></div>
+			</div>
+		</div>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="materialize/js/materialize.js" type="text/javascript" charset="utf-8" async defer></script>   
